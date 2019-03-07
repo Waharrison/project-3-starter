@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 //import { Redirect } from 'react-router-dom';
 import "./style.css";
 
-=======
->>>>>>> eb1b6f91bf9eb829a59283ef2eff100ae8b15cce
 import API from '../../lib/API';
 import AuthContext from '../../contexts/AuthContext';
 import SearchForm from "../../components/Search/searchContainer"
