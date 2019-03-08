@@ -27,10 +27,15 @@ class Secret extends Component {
   render() {
     return (
       <div className="secretP">
+      <br/>
+       <br/>
+       <br/>
       <div className='container'> <div className='Secret'>
-      <div className="jumbotron" style={{textAlign:"center"}}> 
-       <h1 className="wtma">Welcome!</h1>
-       </div>
+      {/* <div className="jumbotron" style={{textAlign:"center"}}> 
+       
+       </div> */}
+       
+       <h1 className="wtma" style={{textAlign:"center"}}>Welcome!</h1>
        <h2 className="VI">Search for your Vacation Inspiraton</h2>
         <div className='row'>
           <div className='col'>
@@ -62,23 +67,6 @@ class Secret extends Component {
       <br/>
       <br/>
       <br/>
-
-      
-      
-      <br/>
-      <div className="container">
-      <div className="row">
-      <div className="col-lg-12">
-      <a href="https://clarkf704.github.io/thisistheoutDoor/"><button className="hike">Get Inspired!</button></a>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      </div>
-      </div>
-      </div>
-     
-
       </div>
       
     );
