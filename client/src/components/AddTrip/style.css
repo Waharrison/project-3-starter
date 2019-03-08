@@ -282,6 +282,8 @@ textarea:hover {
 .newTrip{
     background-image: url('./greek.jpg');
     height:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .hopefully{
     background: rgba(47, 73, 110, 0.7);
